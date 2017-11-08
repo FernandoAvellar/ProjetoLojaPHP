@@ -1,14 +1,7 @@
-<?php include("cabecalho.php");
+<?php 
+include("cabecalho.php");
 include("conecta.php");
 include("banco-produto.php"); ?>
-
-<?php
-    if(array_key_exists("removido", $_GET) && $_GET["removido"]==="true") {
-?>
-    <p class="text-sucess">Produto apagado com sucesso!</p>
-<?php
-    }
-?>
 
 <table class="table table-striped table-bordered">
 <tr>
